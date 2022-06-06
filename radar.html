@@ -12,7 +12,97 @@
  <main>
      <h1>Cadastro de Pesquisas Domiciliar - ST</h1>
     <form class="pagina" action="">
+        <div>
+            <label for="nº">Nº</label>
+            <input type="text" name="Nº" id="Nº">
+            <label for="data">Data</label>
+            <input type="text" name="data" id="data">
+        </div>
+           
+        <div>
+                <label for="documento">Documento</label>
+                <select name="documento" id="documento">
+                    <option selected disabled value="selecione">Selecione uma Opção</option>
+                    <option value="teste 1">teste 1</option>
+                    <option value="teste 2">teste 2</option>
+                </select>
+                <input type="text" name="documento" id="documento">
+                <input type="text" name="documento" id="documento">
+                <button>Buscar</button>
+        </div>
 
+        <div>
+                <label for="endereço">Endereço</label>
+                <input type="text" name="endereço" id="endereço">
+        </div>
+
+        <div>
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" id="bairro">
+        </div>
+
+        <div>
+            <label for="descricao">Descrição</label>
+            <textarea name="" id="" cols="30" rows="6" style="width: 26em;"></textarea>
+        </div>
+
+        <div>
+            <label for="opcao1">Opção 01</label>
+            <input type="text" name="opcap1" id="opcao1"><br>
+            <label for="opcao2">Opção 02</label>
+            <input type="text" name="opcao2" id="opcao2">
+        </div>
+
+        <div>
+            <p>Opinião Domiciliar</p>
+            <label for="contrario">Moradores Contrários à Mudança</label>
+            <input type="text" name="contrario" id="contrario">
+            <input type="text" name="ausentes" id="ausentes">
+            <label for="ausentes">Moradores Ausentes</label><br>
+            <label for="favoraveis1">Moradores Favoráveis Opção 01</label>
+            <input type="text" name="favoraveis01" id="favoraveis01">
+            <input type="text" name="alugada" id="alugada">
+            <label for="alugada">Casa Alugada/Vendida e Outros</label>
+            <label for="favoraveis02">Moradores Favoráveis a Opção 02</label>
+            <input type="text" name="favoraveis02" id="favoraveis02">
+            <input type="text" name="total" id="total">
+            <label for="total">Total de Residências</label>
+        </div>
+
+        <div>
+            <label for="os">OS</label>
+            <textarea name="" id="" cols="30" rows="6" style="width: 26em;"></textarea>
+        </div>
+
+        <div>
+            <label for="pesquisador1">Pesquisador 01</label>
+            <select name="pesquisador1" id="pesquisador1">
+                <option selected disabled value="selecione">Selecione uma Opção</option>
+                <option value="teste 1">teste 1</option>
+                <option value="teste 2">teste 2</option>
+            </select><br>
+            <label for="pesquisador2">Pesquisador 02</label>
+            <select name="pesquisador2" id="pesquisador2">
+                <option selected disabled value="selecione">Selecione uma Opção</option>
+                <option value="teste 1">teste 1</option>
+                <option value="teste 2">teste 2</option>
+            </select><br>
+
+            <label for="pesquisador3">Pesquisador 03</label>
+            <select name="pesquisador3" id="pesquisador3">
+                <option selected disabled value="selecione">Selecione uma Opção</option>
+                <option value="teste 1">teste 1</option>
+                <option value="teste 2">teste 2</option>
+            </select>
+        </div>  
+        
+        <div>
+                <button>Novo</button>
+                <button>Salvar</button>
+                <button>Pesquisar</button>
+                <a href="PaginaHome.php"><input type="button" value="Voltar"></a>
+        </div>
+        
     </form>
  </main>   
 </body>
