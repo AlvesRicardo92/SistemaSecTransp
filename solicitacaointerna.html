@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitação Interna</title>
+</head>
+<body>
+<main>
+
+<h1> Cadastro de Solicitação Interna - ST</h1>
+
+<form class="pagina" action="">
+
+    
+        <div>
+            <label for="Nº">Nº :</label>
+            <input type="text" name="Nº" id="Nº">
+            <label for="Data">Data :</label>
+            <input type="text" name="Data" id="Dara">
+        </div>
+
+        <div class="escolha">
+            <label for="Urgenciar">
+                <input type="radio" name="prioridades" id="Urgenciar" value="urgenciar">Urgenciar
+            </label><br>
+            <label for="Priorizar">
+                <input type="radio" name="prioridades" id="Priorizar" value="priorizar">Priorizar
+            </label><br>
+            <label for="Normal">
+                <input type="radio" name="prioridades" id="Normal" value="normal" checked>Normal
+            </label>
+        </div>
+        <div>
+        <label for="Funcionários:">Funcionários :</label>
+            <select name="Funcionários" id="Funcionários">
+                <option selected disabled value="Selecione">Selecione uma Opção</option>
+                <option value="teste1">teste 1</option>
+                <option value="teste2"> teste 2</option>
+            </select>
+        </div>
+        <div>
+            <label for="Destino">Destino :</label>
+            <select name="Destino" id="Destino">
+                <option selected disabled value="Selecione">Selecione uma Opção</option>
+                <option value="test1">test1</option>
+                <option value="test2">test2</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="Solicitante"> Solicitante : </label>
+            <input type="text" name="Solicitante" id="Solicitante">
+        </div> 
+
+        <div>
+                <label for="Assunto">Assunto :</label>
+                <input type="text" name="Assunto" id="Assunto">
+        </div>
+
+        <div>
+                <label for="Endereço">Endereço :</label>
+                <input type="text" name="Endereço" id="Endereço">
+                <label for="Nº">Nº</label>
+                <input type="text" name="Nº" id="Nº">
+        </div>
+
+        <div>
+                <label for="Bairro">Bairro :</label>
+                <input type="text" name="Bairro" id="Bairro">
+        </div>
+
+        <div>
+            <label for="Projeto">Projeto :</label>
+            <input type="text" name="Projeto" id="Projeto">
+            <input type="checkbox" name="Reservar" id="Reservar">
+            <label for="Reservar">Reservar</label>
+        </div>
+
+        <div>
+            <label for="OBS">OBS :</label>
+            <textarea name="" id="" cols="30" rows="6" style="width: 26em;"></textarea>
+            
+        </div>
+    
+        <button type="menu">Novo</button>
+        <button type="submit">Salvar</button>
+        <button type="submit">Pesquisar</button>
+        <button type="submit">Status</button>
+        <a href="PaginaHome.html"><input type="button" value="Voltar"></a>
+
+
+       
+    
+
+</form>
+
+
+</main>    
+</body>
+</html>
