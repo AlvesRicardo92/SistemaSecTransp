@@ -28,7 +28,7 @@
             <a href="redar.html" class="menu"><img src="imagens/Imagens sem fundo/radar.png" alt=""><br>Radar</a>
             <a href="carros.html" class="menu"><img src="imagens/Imagens sem fundo/carros.png" alt=""><br> Carros</a>
             <a href="index.php" class="menu"><img src="imagens/Imagens sem fundo/sair.png" alt=""><br>Sair</a>
-            <a href="#AbrirModal" class="menu"><img src="imagens/hide.bmp" alt=""><br>Abrir modal</a>
+            <a href="#abrirModal" class="menu"><img src="imagens/hide.bmp" alt=""><br>Abrir modal</a>
         </nav>    
     </main>
     <div id="abrirModal" class="modal">
