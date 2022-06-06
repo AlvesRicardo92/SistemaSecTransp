@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,100&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
 :root {
     --cor1: #FCFCFC;
     --cor2: #BDBDBD;
@@ -9,7 +11,7 @@
     --cor4: #707070;
     --cor5: #575757;
     
-    --fonte-diferente: 'Poppins', sans-serif;
+    --fonte-diferente: 'Inconsolata', monospace;;
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif; 
 }
 
@@ -18,7 +20,8 @@
 body {
 background-color: var(--cor2);
 font-family: var(--fonte-diferente);
-font-weight: bold;
+font-weight: normal;
+
 }
 
 
