@@ -21,7 +21,6 @@ font-family: var(--fonte-diferente);
 font-weight: bold;
 }
 
-
 h1.titulo {
     font-size: 40px;
     font-style: italic;
@@ -236,3 +235,7 @@ label#obs{
 }
 
 .close:hover { background: #00d9ff; }
+
+#obs {
+    resize: none;
+}
