@@ -28,8 +28,15 @@
             <a href="redar.html" class="menu"><img src="imagens/Imagens sem fundo/radar.png" alt=""><br>Radar</a>
             <a href="carros.html" class="menu"><img src="imagens/Imagens sem fundo/carros.png" alt=""><br> Carros</a>
             <a href="index.php" class="menu"><img src="imagens/Imagens sem fundo/sair.png" alt=""><br>Sair</a>
+            <a href="#AbrirModal" class="menu"><img src="imagens/hide.bmp" alt=""><br>Abrir modal</a>
         </nav>    
     </main>
+    <div id="abrirModal" class="modal">
+        <a href="#fechar" title="Fechar" class="fechar">x</a>
+        <h2>Janela Modal</h2>
+        <p>Esta é uma simples janela de modal.</p>
+        <p>Você pode fazer qualquer coisa aqui, página de Login, pop-ups, ou formulários</p>
+    </div>
     <?php
         } else {
             echo 'Você não está autorizado a acessar esta página. Por favor, efetue <a href="index.php">login</a>.<br>';
