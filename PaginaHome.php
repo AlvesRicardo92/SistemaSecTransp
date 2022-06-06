@@ -27,12 +27,12 @@
             <a href="relatorios.html" class="menu"><img src="imagens/Imagens sem fundo/relatorios.png" alt=""><br>Relatórios</a>
             <a href="redar.html" class="menu"><img src="imagens/Imagens sem fundo/radar.png" alt=""><br>Radar</a>
             <a href="carros.html" class="menu"><img src="imagens/Imagens sem fundo/carros.png" alt=""><br> Carros</a>
-            <a href="index.html" class="menu"><img src="imagens/Imagens sem fundo/sair.png" alt=""><br>Sair</a>
+            <a href="index.php" class="menu"><img src="imagens/Imagens sem fundo/sair.png" alt=""><br>Sair</a>
         </nav>    
     </main>
     <?php
         } else {
-            echo 'Você não está autorizado a acessar esta página. Por favor, efetue login. <br/>';
+            echo 'Você não está autorizado a acessar esta página. Por favor, efetue <a href="index.php">login</a>.<br>';
         }
     ?>
 </body>
