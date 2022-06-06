@@ -177,3 +177,9 @@ label#obs{
     width:150px;
     height:50px;
 }
+
+.escolhaos {
+    position: absolute;
+    left:700px;
+    top:275px;
+}
