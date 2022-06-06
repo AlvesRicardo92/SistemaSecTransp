@@ -9,6 +9,87 @@
     <title>Relatórios</title>
 </head>
 <body>
+    <main>
+        <h1>Imppressão de Relatórios</h1>
+    </main>
+
+    <form class="pagina" action="">
+        <div>
+            <label for="si"><input type="radio" name="relatorio" id="si" value="si" checked>Solicitação Interna</label>
+            <label for="projeto"><input type="radio" name="relatorio" id="projeto">Projeto</label>
+            <label for="oficio"><input type="radio" name="relatorio" id="oficio">Ofícios</label>
+            <label for="certidoes"><input type="radio" name="relatio" id="certidoes">Certidões</label>
+            <label for="os"><input type="radio" name="relatorio" id="os">Ordem de Serviço</label>
+            <label for="docend"><input type="radio" name="relatorio" id="docend">Documento por Endereço</label>
+        </div>
+
+        <div style="text-align: center;">
+            <label for="periodo">Periodo</label>
+            <input type="text" name="periodo" id="periodo">
+            <input type="text" name="periodo" id="periodo">
+        </div>
+
+        <div>
+            <label for="Funcionários:">Funcionários :</label>
+            <select name="Funcionários" id="Funcionários">
+                <option selected disabled value="Selecione">Selecione uma Opção</option>
+                <option value="teste1">teste 1</option>
+                <option value="teste2"> teste 2</option>
+            </select><br>
+            <label for="">Interessado</label>
+            <input type="text" name="interessado" id="interessado"><br>
+            <label for="">Endereço</label>
+            <input type="text" name="endereço" id="endereço"><br>
+            <label for="">Bairro</label>
+            <input type="text" name="bairro" id="bairro"><br>
+            <label for="desenhista:">Desenhista :</label>
+            <select name="desenhista" id="desenhista">
+                <option selected disabled value="Selecione">Selecione uma Opção</option>
+                <option value="teste1">teste 1</option>
+                <option value="teste2"> teste 2</option>
+            </select><br>
+            <label for="destino:">Destino :</label>
+            <select name="destino" id="destino">
+                <option selected disabled value="Selecione">Selecione uma Opção</option>
+                <option value="teste1">teste 1</option>
+                <option value="teste2"> teste 2</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="urgenciar"><input type="radio" name="prioridade" id="urgenciar" value="urgenciar"> Urgenciar</label>
+            <label for="priorizar"><input type="radio" name="prioridade" id="priorizar" value="priorizar">Priorizar</label>
+            <label for="normal"><input type="radio" name="prioridade" id="normal" value="normal" checked>Normal</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="sh" id="sh">
+            <label for="sh">Sin. Horizontal</label>
+            <input type="checkbox" name="freza" id="freza">
+            <label for="freza">Freza</label>
+            <input type="checkbox" name="pl" id="pl">
+            <label for="pl">Placa Limpa</label><br>
+            <input type="checkbox" name="sv" id="sv">
+            <label for="sv">Sin. Vertical</label>
+            <input type="checkbox" name="semaforico" id="semaforico">
+            <label for="semaforico">Semaforico</label>
+            <input type="checkbox" name="geometrico" id="geometrico">
+            <label for="geometrico">Geometrico</label>
+        </div>
+
+        <div>
+           <p>OS</p>
+           <input type="checkbox" name="aberto" id="aberto">
+           <label for="aberto">Em Aberto</label><br>
+           <input type="checkbox" name="fechado" id="fechado">
+           <label for="fechado">Fechado</label>
+            
+        </div>
+
+        <button>Imprimir</button>
+        <a href="PaginaHome.php"><input type="button" value="Voltar"></a>
+
+    </form>
     
 </body>
 </html>
