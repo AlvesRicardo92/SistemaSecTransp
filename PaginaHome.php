@@ -32,7 +32,7 @@
     </main>
     <?php
         } else {
-            echo 'Você não está autorizado a acessar esta página. Por favor, efetue login. <br/>';
+            echo 'Você não está autorizado a acessar esta página. Por favor, efetue <a href="index.php">login</a>.<br>';
         }
     ?>
 </body>
