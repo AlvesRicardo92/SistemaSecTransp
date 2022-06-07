@@ -11,3 +11,4 @@ function formhash(form, password) {
    // Finalmente, submete o formulário.
    form.submit();
 }
+
