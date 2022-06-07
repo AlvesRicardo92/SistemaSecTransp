@@ -249,7 +249,11 @@ label#obs{
 	max-width: 700px; 
 	margin: 32px auto; 
 	padding: 32px; 
-	background: #fff;
+	/*background: #fff;*/
+    border: solid;
+    border-radius: 10px;
+    border-color: var(--cor5);
+    
 }
 a {
 	color: #21D4FD; 
@@ -266,7 +270,7 @@ a:hover {
 	border-bottom: 1px solid #ccc;
 }
 
-.tabbed [type="radio"] {
+.tabbed [type="radio"][name="css-tabs"] {
 	/* hiding the inputs */
 	display: none;
 }
@@ -283,23 +287,23 @@ a:hover {
 	margin-bottom: -1px;
 	padding: 12px 15px;
 	border: 1px solid #ccc;
-	background: #eee;
-	color: #666;
+	background: white;
+	/*color: #666;
 	font-size: 12px; 
 	font-weight: 600;
-	text-transform: uppercase;
+	text-transform: uppercase;*/
 	letter-spacing: 1px;
 	cursor: pointer;	
 	transition: all 0.3s;
 }
 .tab:hover label {
 	border-top-color: #333;
-	color: #333;
+	/*color: #333;*/
 }
 
 .tab-content {
 	display: none;
-	color: #777;
+	/*color: #777;*/
 }
 
 /* As we cannot replace the numbers with variables or calls to element properties, the number of this selector parts is our tab count limit */
@@ -309,8 +313,8 @@ a:hover {
 .tabbed [type="radio"]:nth-of-type(4):checked ~ .tabs .tab:nth-of-type(4) label,
 .tabbed [type="radio"]:nth-of-type(5):checked ~ .tabs .tab:nth-of-type(5) label {
 	border-bottom-color: #fff;
-	/*border-top-color: #B721FF;*/
-	background: #fff;
+	border-top-color: black;
+	/*background: #fff;*/
 	color: #222;
 }
 

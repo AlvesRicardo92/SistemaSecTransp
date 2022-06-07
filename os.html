@@ -11,13 +11,14 @@
 </head>
 <body>
 <main>
+    <h1>Cadastro de Ordem de Serviço</h1>
     <div class="page-content">
 
         
         <div class="tabbed">
             <input type="radio" id="tab1" name="css-tabs" checked>
             <input type="radio" id="tab2" name="css-tabs">
-            <input type="radio" id="tab3" name="css-tabs">
+            
             
             <ul class="tabs">
                 <li class="tab"><label for="tab1">Cadastro</label></li>
@@ -46,12 +47,175 @@
                  <label for="interessado">Interessado</label>
                  <input type="text" name="interessado" id="interessado">
              </div>
+
+             <div>
+                 <label for="urgenciar">
+                     <input type="radio" name="escolha" id="urgenciar" value="urgenciar">Urgenciar
+                </label>
+                <label for="priorizar">
+                    <input type="radio" name="escolha" id="priorizar" value="priorizar">Priorizar
+                </label>
+                <label for="normal">
+                    <input checked type="radio" name="escolha" id="normal">Normal
+                </label>
+                 
+             </div>
+
+             <div>
+                <label for="descricao">Descrição</label>
+                <textarea name="" id="" cols="30" rows="6" style="width: 26em;"></textarea>
+             </div>
+
+             <div>
+                 <label for="documento">Documento</label>
+                 <select name="documento" id="documento">
+                     <option selected disabled value="selecione">Selecione um Opção</option>
+                     <option value="teste 1">teste 1</option>
+                     <option value="teste 2">teste 2</option>
+                 </select>
+                 <input type="text" name="documento" id="documento">
+                 <input type="text" name="documento" id="documento">
+                 <button>Buscar</button>
+             </div>
+
+             <div>
+                 <label for="endereço">Endereço</label>
+                 <input type="text" name="endereço" id="endereço">
+                 <label for="Nº">Nº</label>
+                 <input type="text" name="Nº" id="Nº">
+             </div>
+
+             <div>
+                 <label for="bairro">Bairro</label>
+                 <input type="text" name="bairro" id="bairro">
+             </div>
+
+             <div>
+                 <label for="projeto">Projeto</label>
+                 <input type="text" name="projeto" id="projeto">
+                 <input type="text" name="projeto" id="projeto">
+             </div>
+
+             <div>
+                <input type="checkbox" name="sh" id="sh">
+                <label for="sh">Sinalização Horizontal</label>
+                <label for="quente">Quente</label>
+                <input type="text" name="quente" id="quente">
+                <label for="fria">Fria</label>
+                <input type="text" name="fria" id="fria">
+                <label for="freza">Freza</label>
+                <input type="text" name="freza" id="freza">
+                
+             </div>
+
+             <div>
+                <input type="checkbox" name="sv" id="sv">
+                <label for="sv">Sinalização Vertical</label>
+                <input type="text" name="sv" id="sv">
+                <input type="checkbox" name="pl" id="pl">
+                <label for="pl">Placa Limpa</label>
+                <input type="text" name="pl" id="pl">
+             </div>
+
+             <div>
+                 <input type="checkbox" name="geomatrico" id="geometrico">
+                 <label for="geometrico">Geometrico</label>
+                 <input type="checkbox" name="semaforico" id="semaforico">
+                 <label for="semaforico">Semaforico</label>
+                 
+             </div>
+
+             <div>
+                <label for="obs">Obs</label>
+                <textarea name="" id="" cols="30" rows="6" style="width: 26em;"></textarea>
+             </div>
+
+             <div>
+                 <button>Novo</button>
+                 <button>Salvar</button>
+                 <button>Pesquisar</button>
+                 <button>Imprimir</button>
+                 <a href="PaginaHome.php"><input type="button" value="Voltar"></a>
+             </div>
             </div>
 
             
             <div class="tab-content">
-                <h4>Zombie lipsum</h4>
-                <p>Zombie ipsum brains reversus ab cerebellum viral inferno, brein nam rick mend grimes malum cerveau cerebro. De carne cerebro lumbering animata cervello corpora quaeritis. Summus thalamus brains sit​​, morbo basal ganglia vel maleficia? De braaaiiiins apocalypsi gorger omero prefrontal cortex undead survivor fornix dictum mauris. </p>
+                <h4>Controle</h4>
+                <div>
+                    <input type="text" name="pesquisar" id="pesquisar">
+                    <input type="text" name="pesquisar" id="pesquisar">
+                    <button>Pesquisar</button>
+                </div>
+
+                <div>
+                    <label for="horizontal">Horizontal</label><br>
+                    <label for="responsavel">Responsável</label>
+                    <select name="responsavel" id="responsavel">
+                        <option selected disabled value="selecione">Selecione um Opção</option>
+                        <option value="teste 1">teste 1</option>
+                        <option value="teste 2">teste 2</option>
+                    </select>
+                    <label for="saida">Data da Saída</label>
+                    <input type="text" name="" id="">
+                    <label for="retorno">Data do Retorno</label>
+                    <input type="text" name="retorno" id="retorno">
+                </div>
+
+                <div>
+                    <label for="vertical">Vertical</label><br>
+                    <label for="responsavel">Responsável</label>
+                    <select name="responsavel" id="responsavel">
+                        <option selected disabled value="selecione">Selecione um Opção</option>
+                        <option value="teste 1">teste 1</option>
+                        <option value="teste 2">teste 2</option>
+                    </select>
+                    <label for="saida">Data da Saída</label>
+                    <input type="text" name="" id="">
+                    <label for="retorno">Data do Retorno</label>
+                    <input type="text" name="retorno" id="retorno">
+                </div>
+
+                <div>
+                    <label for="fresa">Fresa</label><br>
+                    <label for="responsavel">Responsável</label>
+                    <select name="responsavel" id="responsavel">
+                        <option selected disabled value="selecione">Selecione um Opção</option>
+                        <option value="teste 1">teste 1</option>
+                        <option value="teste 2">teste 2</option>
+                    </select>
+                    <label for="saida">Data da Saída</label>
+                    <input type="text" name="" id="">
+                    <label for="retorno">Data do Retorno</label>
+                    <input type="text" name="retorno" id="retorno">
+                </div>
+
+                <div>
+                    <label for="horizontal">Horizontal</label><br>
+                    <label for="quente">Quente</label>
+                    <input type="text" name="quente" id="quente"><br>
+                    <label for="fria">Fria</label>
+                    <input type="text" name="fria" id="fria"><br>
+                    <label for="fresa">Fresa</label>
+                    <input type="tel" name="fresa" id="fresa">
+                    
+                </div>
+
+                <div>
+                    <label for="vertical">Vertical</label><br>
+                    <input type="text" name="vertical" id="vertical">
+                </div>
+
+                <div>
+                    <label for="obs">Obs</label>
+                    <textarea name="" id="" cols="30" rows="6" style="width: 26em;"></textarea>
+                </div>
+
+                <div>
+                    <button>Salvar</button>
+                    <a href="PaginaHome.php"><input type="button" value="Voltar"></a>
+                </div>
+
             </div>
             
 
