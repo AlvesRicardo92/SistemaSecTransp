@@ -255,6 +255,18 @@ label#obs{
     border-color: var(--cor5);
     
 }
+
+.page-contentadm {
+	max-width: 700px; 
+	margin: 32px auto; 
+	padding: 32px; 
+	background: #fff;
+    border: solid;
+    border-radius: 10px;
+    border-color: var(--cor5);
+    
+}
+
 /*a {
 	color: #21D4FD; 
 	transition: all 0.3s;
@@ -324,4 +336,5 @@ a:hover {
 .tabbed [type="radio"]:nth-of-type(4):checked ~ .tab-content:nth-of-type(4) {
 	display: block;
 }
+
 

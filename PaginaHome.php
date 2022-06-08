@@ -75,6 +75,7 @@
     ?>
     <main>
         <nav>
+            
             <a href="solicitacaointerna.html" class="menu"><img src="imagens/Imagens sem fundo/si.png" alt=""><br> Solicitação</a>
             <a href="projeto.html" class="menu"><img src="imagens/Imagens sem fundo/projeto.png" alt=""><br>Projetos</a>
             <a href="oficios.html" class="menu"><img src="imagens/Imagens sem fundo/oficios.png" alt=""><br>Ofícios</a>
