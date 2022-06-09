@@ -337,4 +337,62 @@ a:hover {
 	display: block;
 }
 
+.caixatextou {
+    border: 1px #000 solid;
+    border-collapse: collapse;
+    position: absolute;
+    left: 350px;
+    top: 148px;
+    
+}
 
+.caixatextohp {
+    border: 1px #000 solid;
+    border-collapse: collapse;
+    position: absolute;
+    left: 550px;
+    top: 118px;
+    
+}
+
+.caixatexton {
+    border: 1px #000 solid;
+    border-collapse: collapse;
+    left: 750px;
+    top: 148px;
+    position: absolute;
+    
+}
+
+.caixatextour {
+    border: 1px #000 solid;
+    border-collapse: collapse;
+    position: absolute;
+    top: 295px;
+    left: 350px;
+    
+}
+
+.caixatextovp {
+    border: 1px #000 solid;
+    border-collapse: collapse;
+    position: absolute;
+    top: 265px;
+    left: 550px;
+    
+}
+
+.caixatextono {
+    border: 1px #000 solid;
+    border-collapse: collapse;
+    position: absolute;
+    top: 295px;
+    left: 750px;
+    
+}
+
+.osbotao {
+    position: absolute;
+    top: 420px;
+    left: 560px;
+}
