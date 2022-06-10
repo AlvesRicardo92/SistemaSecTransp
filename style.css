@@ -100,7 +100,7 @@ nav {
 .pagina {
     line-height: 30px;
     margin-left: 13%;
-    margin-right: 15%;
+    margin-right: 10%;
 }
 
 .escolha{
@@ -111,29 +111,45 @@ nav {
     
 }
 
+.horario {
+    font-size: 13px;
+    font-weight: bold;
+}
 .carrogag {
-    width:400px;    
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    width:300px;    
 }
 
 .carrorfj {
     position: absolute;
-    width:400px;
-    left: 600px;
+    width:300px;
+    left: 530px;
     top: 100px;
 }
 
 .carrofno {
     position: absolute;
-    width:400px;
-    left: 950px;
+    width:300px;
+    left: 870px;
     top: 100px;
 }
 
 .carroghy {
     position: absolute;
-    width:400px;
-    left: 1300px;
+    width:300px;
+    left: 1200px;
     top: 100px;
+   
+    
+}
+
+.tanque {
+    position: absolute;
+    top: 850px;
+    left: 140px;
+  
 }
 
 .tanque img {
@@ -145,40 +161,44 @@ nav {
 
 .km {
     position: absolute;
-    left: 530px;
-    top: 930px;
+    left: 360px;
+    top: 870px;
+
     
 }
 .observacoes{
     position:absolute;
-    left:750px;
+    left:1000px;
     top:880px;
+   
 }
 label#obs{
     position:absolute;
     top:0px;
+    
 }
 .abastecido{
     position:absolute;
-    left:750px;
-    top:1020px;
+    left:600px;
+    top:900px;
+    
 }
 .abastecimentoLitros{
     position:relative;
-    left:125px
+    left:117px
 }
 .anexo{
     position:relative;
-    left:365px;
+    left:100px;
 }
 .botoes{
     position:relative;
-    left:700px;
-    top:20px;
+    left:200px;
+    top:930px;
 }
 .botoes button{
-    width:150px;
-    height:50px;
+    width: 130px;
+    height:30px;
 }
 
 .escolhaos {
