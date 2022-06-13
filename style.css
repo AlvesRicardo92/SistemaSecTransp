@@ -90,6 +90,8 @@ nav a:hover{
     
 }
 
+
+
 nav {
     margin: 272px;
     border-radius: 10px;
@@ -97,16 +99,24 @@ nav {
     
 }
 
-.pagina {
+
+
+.pagina2 {
     line-height: 30px;
     margin-left: 13%;
     margin-right: 10%;
 }
 
+.pagina {
+    margin-left: 500px;
+    padding: 10px;
+    line-height: 2;
+}
+
 .escolha{
     position: absolute;
-    left: 800px;
-    top: 70px;
+    left: 850px;
+    top: 100px;
     margin-right: 500px;
     
 }
