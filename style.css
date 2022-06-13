@@ -94,30 +94,50 @@ nav a:hover{
 
 nav {
     margin: 272px;
-    border-radius: 10px;
-
-    
+    border-radius: 10px;   
 }
 
 
+.label {
+    width: 1000px !important;
+}
+
+
+.pagina {
+    margin-left: 400px;
+    margin-right: 250px;
+    padding: 10px;
+    line-height: 2;
+}
 
 .pagina2 {
-    line-height: 30px;
+    line-height: 2;
     margin-left: 13%;
     margin-right: 10%;
 }
 
-.pagina {
-    margin-left: 500px;
+.pagina3 {
+    margin-left: 530px;
+    margin-right: 250px;
     padding: 10px;
     line-height: 2;
 }
+
 
 .escolha{
     position: absolute;
     left: 850px;
     top: 100px;
     margin-right: 500px;
+    
+}
+
+.escolha2 {
+    position: absolute;
+    left: 1000px;
+    top: 310px;
+    right: 480px;
+    
     
 }
 
