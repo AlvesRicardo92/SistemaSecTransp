@@ -92,6 +92,14 @@ nav {
     border-radius: 10px;   
 }
 
+/*label {
+    width: 130px;
+    display: inline-block;
+    margin-right: 10px;
+   
+    text-align: right;
+
+}*/
 
 .pagina {
     margin-left: 500px;
@@ -107,8 +115,8 @@ nav {
 }
 
 .pagina3 {
-    margin-left: 530px;
-    margin-right: 250px;
+    margin-left: 500px;
+    margin-right: 500px;
     padding: 10px;
     line-height: 2;
 }
