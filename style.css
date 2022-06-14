@@ -114,33 +114,67 @@ label[data-atributo="correcao2"]{
 }
 
 
-image.png
-.pagina {
-    margin-left: 500px;
-    margin-right: 450px;
-    padding: 10px;
-    line-height: 2;
-}
 
-.pagina2 {
-    line-height: 2;
-    margin-left: 13%;
-    margin-right: 10%;
-}
-
-.pagina3 {
+.paginasi {
     margin-left: 470px;
     margin-right: 450px;
     padding: 10px;
     line-height: 2;
 }
 
-.pagina4 {
+.paginarelatorio {
     margin-left: 350px;
-    margin-right: 50px;
+    margin-right: 400px;
     padding: 10px;
     line-height: 2;
 }
+
+.paginaradar {
+    margin-left: 350px;
+    margin-right: 400px;
+    padding: 10px;
+    line-height: 2;
+}
+
+.paginaprojeto {
+    margin-left: 470px;
+    margin-right: 450px;
+    padding: 10px;
+    line-height: 2;
+}
+
+.paginaos {
+    line-height: 2;
+    margin-left: 13%;
+    margin-right: 10%;
+}
+
+.paginaoficio {
+    margin-left: 470px;
+    margin-right: 450px;
+    padding: 10px;
+    line-height: 2;
+}
+
+.paginacertidao {
+    margin-left: 470px;
+    margin-right: 450px;
+    padding: 10px;
+    line-height: 2;
+}
+
+.paginacarro {
+    line-height: 2;
+    margin-left: 13%;
+    margin-right: 10%;
+}
+
+.paginaadm {
+    line-height: 2;
+    margin-left: 13%;
+    margin-right: 10%;
+}
+
 
 
 .escolha{
