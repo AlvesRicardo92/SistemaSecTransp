@@ -92,15 +92,29 @@ nav {
     border-radius: 10px;   
 }
 
-/*label {
+label {
     width: 130px;
     display: inline-block;
     margin-right: 10px;
    
     text-align: right;
 
-}*/
+}
 
+label[data-atributo="correcao"]{
+    text-align: left;
+    width: 30px;
+    margin-right: 5px;
+}
+
+label[data-atributo="correcao2"]{
+    display: inline-block;
+    margin-left: 100px;
+    text-align: left;
+}
+
+
+image.png
 .pagina {
     margin-left: 500px;
     margin-right: 450px;
@@ -115,8 +129,15 @@ nav {
 }
 
 .pagina3 {
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 470px;
+    margin-right: 450px;
+    padding: 10px;
+    line-height: 2;
+}
+
+.pagina4 {
+    margin-left: 350px;
+    margin-right: 50px;
     padding: 10px;
     line-height: 2;
 }
@@ -124,8 +145,8 @@ nav {
 
 .escolha{
     position: absolute;
-    left: 910px;
-    top: 70px;
+    left: 840px;
+    top: 60px;
     margin-right: 500px;
     
 }
@@ -174,7 +195,7 @@ nav {
 }
 .tanque {
     position: absolute;
-    top: 850px;
+    top: 890px;
     left: 100px;
     font-size: 14px;
 }
@@ -189,14 +210,14 @@ nav {
 .km {
     position: absolute;
     left: 360px;
-    top: 870px;
+    top: 905px;
 
     
 }
 .observacoes{
     position:absolute;
     left:1000px;
-    top:880px;
+    top:900px;
    
 }
 label#obs{
@@ -207,7 +228,7 @@ label#obs{
 .abastecido{
     position:absolute;
     left:600px;
-    top:900px;
+    top:920px;
     
 }
 .abastecimentoLitros{
@@ -216,12 +237,12 @@ label#obs{
 }
 .anexo{
     position:relative;
-    left:100px;
+    left:50px;
 }
 .botoes{
     position:relative;
     left:200px;
-    top:930px;
+    top:960px;
 }
 .botoes button{
     width: 130px;

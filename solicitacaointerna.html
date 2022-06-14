@@ -21,25 +21,25 @@
         <div>
             <label for="Nº">Nº:</label>
             <input style="width: 70px;" type="text" name="Nº" id="Nº">
-            <label for="Data">Data:</label>
+            <label for="Data" data-atributo="correcao">Data:</label>
             <input style="width: 80px;" type="text" name="Data" id="Dara">
         </div>
         
 
         <div class="escolha">
-            <label for="Urgenciar">
+            <label for="Urgenciar" data-atributo="correcao2">
                 <input type="radio" name="prioridades" id="Urgenciar" value="urgenciar">Urgenciar
             </label><br>
-            <label for="Priorizar">
+            <label for="Priorizar" data-atributo="correcao2">
                 <input type="radio" name="prioridades" id="Priorizar" value="priorizar">Priorizar
             </label><br>
-            <label for="Normal">
+            <label for="Normal" data-atributo="correcao2">
                 <input type="radio" name="prioridades" id="Normal" value="normal" checked>Normal
             </label>
         </div>
         <div>
         <label for="Funcionários:">Funcionários:</label>
-            <select style="width: 250px;" name="Funcionários" id="Funcionários">
+            <select style="width: 280px;" name="Funcionários" id="Funcionários">
                 <option selected disabled value="Selecione">Selecione uma Opção</option>
                 <option value="teste1">teste 1</option>
                 <option value="teste2"> teste 2</option>
@@ -48,7 +48,7 @@
         
         <div>
             <label for="Destino">Destino:</label>
-            <select style="width: 250px;" name="Destino" id="Destino">
+            <select style="width: 280px;" name="Destino" id="Destino">
                 <option selected disabled value="Selecione">Selecione uma Opção</option>
                 <option value="test1">test1</option>
                 <option value="test2">test2</option>
@@ -57,44 +57,46 @@
 
         <div>
             <label for="Solicitante"> Solicitante: </label>
-            <input style="width: 350px;" type="text" name="Solicitante" id="Solicitante">
+            <input style="width: 400px;" type="text" name="Solicitante" id="Solicitante">
         </div> 
 
         <div>
                 <label   for="Assunto">Assunto:</label>
-                <input style="width: 382px;" type="text" name="Assunto" id="Assunto">
+                <input style="width: 400px;" type="text" name="Assunto" id="Assunto">
         </div>
 
         <div>
                 <label for="Endereço">Endereço:</label>
-                <input style="width: 285px;" type="text" name="Endereço" id="Endereço">
-                <label for="Nº">Nº:</label>
+                <input style="width: 300px;" type="text" name="Endereço" id="Endereço">
+                <label  for="Nº" data-atributo="correcao">Nº:</label>
                 <input style="width: 40px;" type="text" name="Nº" id="Nº">
         </div>
 
         <div>
                 <label for="Bairro">Bairro:</label>
-                <input style="width: 389px;" type="text" name="Bairro" id="Bairro">
+                <input style="width: 399px;" type="text" name="Bairro" id="Bairro">
         </div>
 
         <div>
             <label for="Projeto">Projeto:</label>
             <input type="text" name="Projeto" id="Projeto">
             <input type="checkbox" name="Reservar" id="Reservar">
-            <label for="Reservar">Reservar</label>
+            <label for="Reservar" data-atributo="correcao">Reservar</label>
         </div>
 
         <div>
             <label for="OBS">OBS:</label>
-            <textarea name="" id="" cols="30" rows="5" style="width: 415px;"></textarea>
+            <textarea name="" id="" cols="30" rows="5" style="width: 400px;"></textarea>
             
         </div>
     
-        <button type="menu">Novo</button>
-        <button type="submit">Salvar</button>
-        <button type="submit">Pesquisar</button>
-        <button type="submit">Status</button>
-        <a href="PaginaHome.php"><input type="button" value="Voltar"></a>
+        <div style="text-align: center;">
+            <button type="menu">Novo</button>
+            <button type="submit">Salvar</button>
+            <button type="submit">Pesquisar</button>
+            <button type="submit">Status</button>
+            <a href="PaginaHome.php"><input type="button" value="Voltar"></a>
+        </div>
 
 
        
