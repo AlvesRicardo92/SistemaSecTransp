@@ -113,6 +113,12 @@ label[data-atributo="correcao2"]{
     text-align: left;
 }
 
+label[data-atributo="correcaoadm"]{
+    display: inline;
+    
+
+    
+}
 
 
 .paginasi {
