@@ -43,8 +43,8 @@
 
         <div>
             <label for="Endereço">Endereço:</label>
-            <input style="width: 375px;" type="text" name="Endereço" id="Endereço">
-            <label for="Nº">Nº:</label>
+            <input style="width: 355px;" type="text" name="Endereço" id="Endereço">
+            <label style="margin-left: -80px;" for="Nº">Nº:</label>
             <input style="width: 50px;" type="text" name="Nº" id="Nº">
         </div>
 
@@ -55,20 +55,20 @@
 
         <div>
             <label for="OBS:">OBS:</label>
-            <textarea name="" id="" cols="30" rows="4" style="width: 516px;"></textarea>
+            <textarea name="" id="" cols="30" rows="4" style="width: 492px;"></textarea>
             
         </div>
 
-        <div style="font-size: 14.8px;">
+        <div style="font-size: 14.8px; margin-left: 60px;">
             
             <input type="checkbox" name="Sinalização Horizoltal" id="SH">
-            <label for="SH">Sinalização Horizoltal</label>
+            <label data-atributo="correcaoadm" for="SH">Sinalização Horizoltal</label>
             <input type="checkbox" name="Geometrico" id="Geometrico">
-            <label for="Geometrico">Geometrico</label>
+            <label data-atributo="correcaoadm" for="Geometrico">Geometrico</label>
             <input type="checkbox" name="Sinalização Vertical" id="SV">
-            <label for="SV">Sinalização Vertical</label>
+            <label data-atributo="correcaoadm" for="SV">Sinalização Vertical</label>
             <input type="checkbox" name="Semaforico" id="Semaforico">
-            <label for="Semaforico">Semaforico</label>
+            <label data-atributo="correcaoadm" for="Semaforico">Semaforico</label>
         </div>
 
         <div style="text-align: center;">
@@ -78,15 +78,19 @@
             <button type="submit">Status</button>
             <a href="PaginaHome.php"><input type="button" value="Voltar"></a>
         </div>
+        <div style="margin-left: 70px;">
+    
+            <p  >Os projetos que aparecerem relacionados abaixo tem endereço semelhante ao pesquisado ou contemplam a rua pesquisada, conforme de OBS</p>
+    
+            <p>ID Local Desenhista</p>
+        
+        
 
-        <p >Os projetos que aparecerem relacionados abaixo tem endereço semelhante ao pesquisado ou contemplam a rua pesquisada, conforme de OBS</p>
-
-        <p>ID Local Desenhista</p>
-
-
-
-        <textarea name="" id="" cols="30" rows="6" style="width: 561px;"></textarea>
-
+   
+    
+            <textarea name="" id="" cols="30" rows="6" style="width: 561px;"></textarea>
+        </div>
+    
     </form>
 </main>
     
