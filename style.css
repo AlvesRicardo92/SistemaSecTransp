@@ -202,7 +202,7 @@ label[data-atributo="correcaoadm"]{
 }
 .carrogag {
     position: absolute;
-    top: 100px;
+    top: 150px;
     left: 130px;
     width:275px;    
 }
@@ -211,21 +211,21 @@ label[data-atributo="correcaoadm"]{
     position: absolute;
     width:275px;
     left: 530px;
-    top: 100px;
+    top: 150px;
 }
 
 .carrofno {
     position: absolute;
     width:275px;
     left: 870px;
-    top: 100px;
+    top: 150px;
 }
 
 .carroghy {
     position: absolute;
     width:275px;
     left: 1200px;
-    top: 100px;   
+    top: 150px;   
 }
 
 .tanque p{
@@ -233,7 +233,7 @@ label[data-atributo="correcaoadm"]{
 }
 .tanque {
     position: absolute;
-    top: 890px;
+    top: 995px;
     left: 100px;
     font-size: 14px;
 }
@@ -247,15 +247,15 @@ label[data-atributo="correcaoadm"]{
 
 .km {
     position: absolute;
-    left: 360px;
-    top: 905px;
+    left: 365px;
+    top: 1015px;
 
     
 }
 .observacoes{
     position:absolute;
     left:1000px;
-    top:900px;
+    top:1015px;
    
 }
 label#obs{
@@ -266,12 +266,12 @@ label#obs{
 .abastecido{
     position:absolute;
     left:600px;
-    top:920px;
+    top:1035px;
     
 }
 .abastecimentoLitros{
     position:relative;
-    left:117px
+    left:126px
 }
 .anexo{
     position:relative;
@@ -280,7 +280,7 @@ label#obs{
 .botoes{
     position:relative;
     left:200px;
-    top:960px;
+    top:1050px;
 }
 .botoes button{
     width: 130px;
@@ -509,9 +509,7 @@ a:hover {
 }
 
 .osvertical {
- 
-    
-   
+
     width: 350px;
 
 }
