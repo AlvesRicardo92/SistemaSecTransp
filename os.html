@@ -21,22 +21,22 @@
             
             
             <ul class="tabs">
-                <li class="tab"><label for="tab1">Cadastro</label></li>
-                <li class="tab"><label for="tab2">Controle</label></li>
+                <li class="tab"><label style="text-align: center;" for="tab1">Cadastro</label></li>
+                <li class="tab"><label style="text-align: center;" for="tab2">Controle</label></li>
                 
             </ul>
             
             <div class="tab-content">
                 <div>
-                    <h4>Cadastro</h4>
+                    
                     <label for="Nº">Nº:</label>
-                    <input type="text" name="Nº" id="Nº">
+                    <input style="width: 70px;" type="text" name="Nº" id="Nº">
                     <label for="data">Data:</label>
-                    <input type="text" name="data" id="data">
+                    <input style="width: 80px;" type="text" name="data" id="data">
                 </div>
              <div>
                  <label for="funcionarios">Funcionários:</label>
-                 <select name="funcionarios" id="funcionarios">
+                 <select style="width: 422px;" name="funcionarios" id="funcionarios">
                      <option selected disabled value="selecione">Selecione uma Opção</option>
                      <option value="teste 1">teste 1</option>
                      <option value="teste 2">teste 2</option>
@@ -45,18 +45,18 @@
              
              <div>
                  <label for="interessado">Interessado:</label>
-                 <input type="text" name="interessado" id="interessado">
+                 <input style="width: 413px;" type="text" name="interessado" id="interessado">
              </div>
 
              <div class="escolha2">
-                 <label for="urgenciar">
-                     <input type="radio" name="escolha" id="urgenciar" value="urgenciar">Urgenciar
+                 <label data-atributo="correcao2" for="urgenciar">
+                     <input  type="radio" name="escolha" id="urgenciar" value="urgenciar">Urgenciar
                 </label>
-                <label for="priorizar">
-                    <input type="radio" name="escolha" id="priorizar" value="priorizar">Priorizar
+                <label data-atributo="correcao2" for="priorizar">
+                    <input  type="radio" name="escolha" id="priorizar" value="priorizar">Priorizar
                 </label>
-                <label for="normal">
-                    <input checked type="radio" name="escolha" id="normal">Normal
+                <label data-atributo="correcao2" for="normal">
+                    <input  checked type="radio" name="escolha" id="normal">Normal
                 </label>
                  
              </div>
@@ -80,9 +80,9 @@
 
              <div>
                  <label for="endereço">Endereço:</label>
-                 <input type="text" name="endereço" id="endereço">
-                 <label for="Nº">Nº:</label>
-                 <input type="text" name="Nº" id="Nº">
+                 <input style="width: 350px;" type="text" name="endereço" id="endereço">
+                 <label style="margin-left: -48px;" for="Nº">Nº:</label>
+                 <input style="width: 50px;" type="text" name="Nº" id="Nº">
              </div>
 
              <div>
@@ -98,30 +98,30 @@
 
              <div>
                 <input type="checkbox" name="sh" id="sh">
-                <label for="sh">Sinalização Horizontal</label>
-                <label for="quente">Quente</label>
-                <input type="text" name="quente" id="quente">
-                <label for="fria">Fria</label>
-                <input type="text" name="fria" id="fria">
-                <label for="freza">Freza</label>
-                <input type="text" name="freza" id="freza">
+                <label data-atributo="correcaoadm" for="sh">Sinalização Horizontal</label>
+                <label data-atributo="correcaoadm" for="quente">Quente</label>
+                <input style="width: 80px;" type="text" name="quente" id="quente">
+                <label  data-atributo="correcaoadm" for="fria">Fria</label>
+                <input style="width: 80px;" type="text" name="fria" id="fria">
+                <label  data-atributo="correcaoadm"for="freza">Freza</label>
+                <input style="width: 80px;" type="text" name="freza" id="freza">
                 
              </div>
 
              <div>
                 <input type="checkbox" name="sv" id="sv">
-                <label for="sv">Sinalização Vertical</label>
-                <input type="text" name="sv" id="sv">
-                <input type="checkbox" name="pl" id="pl">
-                <label for="pl">Placa Limpa</label>
-                <input type="text" name="pl" id="pl">
+                <label data-atributo="correcaoadm" for="sv">Sinalização Vertical</label>
+                <input  style="width: 77px; margin-left: 82px;" type="text" name="sv" id="sv">
+                <input style="margin-left: 80px;" type="checkbox" name="pl" id="pl">
+                <label data-atributo="correcaoadm" for="pl">Placa Limpa</label>
+                <input style="width: 80px;" type="text" name="pl" id="pl">
              </div>
 
-             <div>
+             <div style="text-align: center;">
                  <input type="checkbox" name="geomatrico" id="geometrico">
-                 <label for="geometrico">Geometrico</label>
+                 <label data-atributo="correcaoadm" for="geometrico">Geometrico</label>
                  <input type="checkbox" name="semaforico" id="semaforico">
-                 <label for="semaforico">Semaforico</label>
+                 <label data-atributo="correcaoadm" for="semaforico">Semaforico</label>
                  
              </div>
 
@@ -141,7 +141,7 @@
 
             
             <div class="tab-content">
-                <h4>Controle</h4>
+               
                 <div>
                     <input type="text" name="pesquisar" id="pesquisar">
                     <input type="text" name="pesquisar" id="pesquisar">
@@ -150,69 +150,71 @@
                     <span class="controle" name="lblBairro" id="lblBairro"></span>
                 </div>
 
-                <div>
-                    <label for="horizontal">Horizontal</label><br>
+                <div style="border: 0.5px solid black ;">
+                    <h4 style="text-align: center;">Horizontal</h4>
                     <label for="responsavel">Responsável</label>
-                    <select name="responsavel" id="responsavel">
+                    <select style="width: 332px;" name="responsavel" id="responsavel">
                         <option selected disabled value="selecione">Selecione um Opção</option>
                         <option value="teste 1">teste 1</option>
                         <option value="teste 2">teste 2</option>
-                    </select>
+                    </select><br>
                     <label for="saida">Data da Saída</label>
-                    <input type="text" name="" id="">
+                    <input style="width: 80px;" type="text" name="" id="">
                     <label for="retorno">Data do Retorno</label>
-                    <input type="text" name="retorno" id="retorno">
+                    <input style="width: 80px;" type="text" name="retorno" id="retorno">
                 </div>
-
-                <div>
-                    <label for="vertical">Vertical</label><br>
+                <br>
+                <div style="border: 0.5px solid black ;">
+                    <h4 style="text-align: center;">Vertical</h4>
                     <label for="responsavel">Responsável</label>
-                    <select name="responsavel" id="responsavel">
+                    <select style="width: 332px;" name="responsavel" id="responsavel">
                         <option selected disabled value="selecione">Selecione um Opção</option>
                         <option value="teste 1">teste 1</option>
                         <option value="teste 2">teste 2</option>
-                    </select>
+                    </select><br>
                     <label for="saida">Data da Saída</label>
-                    <input type="text" name="" id="">
+                    <input style="width: 80px;" type="text" name="" id="">
                     <label for="retorno">Data do Retorno</label>
-                    <input type="text" name="retorno" id="retorno">
+                    <input style="width: 80px;" type="text" name="retorno" id="retorno">
                 </div>
-
-                <div>
-                    <label for="fresa">Fresa</label><br>
+                <br>
+                <div style="border: 0.5px solid black ;">
+                    <h4 style="text-align: center;">Fresa</h4>
                     <label for="responsavel">Responsável</label>
-                    <select name="responsavel" id="responsavel">
+                    <select style="width: 332px;" name="responsavel" id="responsavel">
                         <option selected disabled value="selecione">Selecione um Opção</option>
                         <option value="teste 1">teste 1</option>
                         <option value="teste 2">teste 2</option>
-                    </select>
+                    </select><br>
                     <label for="saida">Data da Saída</label>
-                    <input type="text" name="" id="">
+                    <input style="width: 80px;" type="text" name="" id="">
                     <label for="retorno">Data do Retorno</label>
-                    <input type="text" name="retorno" id="retorno">
+                    <input style="width: 80px;" type="text" name="retorno" id="retorno">
+                </div>
+                <br>
+                <div class="osteste">
+                    <div class="oshorizontal">
+                        <h4 style="text-align: center;">Horizontal</h4>
+                        <label style="margin-left: -40px;" for="quente">Quente</label>
+                        <input  type="text" name="quente" id="quente">
+                        <label style="margin-left: -40px;" for="fria">Fria</label>
+                        <input type="text" name="fria" id="fria"><br>
+                        <label style="margin-left: -40px;" for="fresa">Fresa</label>
+                        <input type="tel" name="fresa" id="fresa"><br>
+                    </div>
+
+                    <div class="osvertical">
+                        <h4 style="text-align: center;">Vertical</h4>
+                        <input style="margin-left: 80px" type="text" name="vertical" id="vertical">
+                    </div>  
                 </div>
 
-                <div>
-                    <label for="horizontal">Horizontal</label><br>
-                    <label for="quente">Quente</label>
-                    <input type="text" name="quente" id="quente"><br>
-                    <label for="fria">Fria</label>
-                    <input type="text" name="fria" id="fria"><br>
-                    <label for="fresa">Fresa</label>
-                    <input type="tel" name="fresa" id="fresa">
-                    
+                
+                <div class="osobs">
+                    <label for="obs">Obs</label><br>
+                    <textarea name="" id="" cols="40" rows="15" style="width: 300px;"></textarea>
                 </div>
-
-                <div>
-                    <label for="vertical">Vertical</label><br>
-                    <input type="text" name="vertical" id="vertical">
-                </div>
-
-                <div>
-                    <label for="obs">Obs</label>
-                    <textarea name="" id="" cols="30" rows="6" style="width: 26em;"></textarea>
-                </div>
-
+                <br>
                 <div style="text-align: center;">
                     <button>Salvar</button>
                     <a href="PaginaHome.php"><input type="button" value="Voltar"></a>

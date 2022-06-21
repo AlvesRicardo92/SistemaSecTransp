@@ -191,8 +191,8 @@ label[data-atributo="correcaoadm"]{
 
 .escolha2 {
     position: absolute;
-    left: 1000px;
-    top: 310px;
+    left: 950px;
+    top: 290px;
     right: 480px; 
 }
 
@@ -501,4 +501,28 @@ a:hover {
     position: absolute;
     top: 420px;
     left: 560px;
+}
+
+.osteste {
+    border: 0.5px solid black;
+    width: 358px;
+}
+
+.osvertical {
+ 
+    
+   
+    width: 350px;
+
+}
+
+.oshorizontal {
+    
+   width: 350px;
+}
+
+.osobs {
+    position: absolute;
+    top: 770px;
+    left: 850px; 
 }
