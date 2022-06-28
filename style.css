@@ -122,8 +122,9 @@ label[data-atributo="correcaoadm"]{
 
 
 .paginasi {
-    margin-left: 470px;
-    margin-right: 450px;
+    width: 45%;
+    margin-left: 300px;
+   /* margin-right: 450px;*/
     padding: 10px;
     line-height: 2;
 }
