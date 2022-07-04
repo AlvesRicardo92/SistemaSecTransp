@@ -122,7 +122,7 @@ label[data-atributo="correcaoadm"]{
 
 
 .paginasi {
-    width: 45%;
+    width: 50%;
     margin-left: 300px;
    /* margin-right: 450px;*/
     padding: 10px;
@@ -130,8 +130,9 @@ label[data-atributo="correcaoadm"]{
 }
 
 .paginarelatorio {
-    margin-left: 350px;
-    margin-right: 400px;
+    width: 70%;
+    margin-left: 200px;
+    /*margin-right: 400px;*/*/
     padding: 10px;
     line-height: 2;
 }
@@ -172,8 +173,8 @@ label[data-atributo="correcaoadm"]{
 
 .paginacarro {
     line-height: 2;
-    margin-left: 13%;
-    margin-right: 10%;
+    margin-left: 10%;
+    margin-right: 20%;
 }
 
 .paginaadm {
@@ -182,13 +183,13 @@ label[data-atributo="correcaoadm"]{
     margin-right: 10%;
 }
 
-.escolha{
+/*.escolha{
     position: absolute;
     left: 840px;
     top: 60px;
     margin-right: 500px;
     
-}
+}*/
 
 .escolha2 {
     position: absolute;
@@ -213,28 +214,28 @@ label[data-atributo="correcaoadm"]{
 .carrogag {
     position: absolute;
     top: 150px;
-    left: 130px;
-    width:275px;    
+    left: 60px;
+    width:276px;    
 }
 
 .carrorfj {
     position: absolute;
-    width:275px;
-    left: 530px;
+    width:276px;
+    left: 400px;
     top: 150px;
 }
 
 .carrofno {
     position: absolute;
-    width:275px;
-    left: 870px;
+    width:276px;
+    left: 720px;
     top: 150px;
 }
 
 .carroghy {
     position: absolute;
-    width:275px;
-    left: 1200px;
+    width:276px;
+    left: 1030px;
     top: 150px;   
 }
 
