@@ -243,12 +243,12 @@ label[data-atributo="correcaoadm"]{
 .tanque p{
     font-size: 16px;
 }
-.tanque {
-   /* position: absolute;
+/*.tanque {
+    position: absolute;
     top: 995px;
     left: 100px;
-    font-size: 14px;*/
-}
+    font-size: 14px;
+}*/
 
 .tanque img {
     width: 200px;
