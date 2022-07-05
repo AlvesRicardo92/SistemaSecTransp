@@ -7,24 +7,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carros</title>
 </head>
-<body>
+<body style="width: 1090;">
     <main class="paginacarro">
         <h1>Agendamento de Veículos</h1>
         <form action="">
-            <div style="width: 1219px;">
-                <input type="text" name="nome" id="nome">
+            <div style="width: 900px;">
+                <input style="width: 400px;" type="text" name="nome" id="nome">
                 <input type="text" name="ADM" id="ADM">
                 <input type="text" name="data" id="data">
-                <label data-atributo="correcaoadm" for="agendamento">Data de Agendamento</label>
-                <button type="submit">«</button>
-                <input type="text" name="agendamento" id="agendamento">
-                <input type="text" name="agendamento" id="agendamento">
-                <button type="submit">»</button>
-                
+                <input style="width: 50px;" type="text" name="data" id="data">
             </div>
 
+            <div style="margin-top: 5px;">
+                <label data-atributo="correcaoadm" for="agendamento">Data de Agendamento</label>
+                <button type="submit">«</button>
+                <input style="width: 90px;" type="text" name="agendamento" id="agendamento">
+                <input style="width: 120px;" type="text" name="agendamento" id="agendamento">
+                <button type="submit">»</button><br>
+                
+            </div>
+            
+            
+            <div style="margin-top: 30px; width: 231px;">
+
+                <label style="font-weight: bolder;" data-atributo="correcaoadm" for="">Selecione o Carro Desejado</label><br>
+                <input type="radio" name="" id="">
+                <label data-atributo="correcaoadm" for="Carro01">Carro 01 (GAG3A65 - GOL)</label><br>
+                <input type="radio" name="" id="">
+                <label data-atributo="correcaoadm" for="Carro02">Carro 02 (FXM5H67 - GOL)</label><br>
+                <input type="radio" name="" id="">
+                <label data-atributo="correcaoadm" for="Carro03">Carro 03 (FNO4C96 - GOL)</label><br>
+                <input type="radio" name="" id="">
+                <label data-atributo="correcaoadm" for="Carro04">Carro 04 (GHY2D63 - GOL)</label><br>
+                <input type="radio" name="" id="">
+                <label data-atributo="correcaoadm" for="Carro05">Carro 05 (RFJ2A84 - ARGO)</label>
+
+            </div>
+
+            <div class="tanque" style="width: 283px; margin-top: 90px;">
+                <p style="font-weight: bolder;">Última atualização</p> <span class="ua" name="lblUltimaUtilizacao" id="lblUltimaUtilizacao"></span>
+                <label data-atributo="correcaoadm" for="motorista">Motorista</label> <span class="ua" name="lblNomeMotorista" id="lblNomeMotorista">Pedro Henrique Domingues</span> <br>
+                <label data-atributo="correcaoadm" for="">Quilometragem</label> <span class="ua" name="lblValorKM" id="lblValorKM">000000</span> <br>
+                <label data-atributo="correcaoadm" for="">Combustível</label> <span class="ua">Gasolina</span> <br>
+                <img src="imagens/tanque0_4.bmp" name="imgQtdeCombustivel" id="imgQtdeCombustivel" alt="imagem combustivel">
+            </div>
+
+            <div style="margin-top: 85px;" class="km">
+                <label style="font-weight: bolder;" data-atributo="correcaoadm" for="KMI">KM Inicial</label><br>
+                <input type="text" name="KMI" id="KMI"><br>
+                <label style="font-weight: bolder;" data-atributo="correcaoadm" for="KMF">KM Final</label><br>
+                <input type="text" name="KMF" id="KMF"><br>
+                <label data-atributo="correcaoadm" for="Combustivel:">Combustivel :</label>
+                <select name="Combustivel" id="Combustivel" style="width: 102px;">
+                    <option selected="" disabled="" value="Selecione">Selecione uma Opção</option>
+                    <option value="teste1">Alcool</option>
+                    <option value="teste2"> Gasolina</option>
+                </select>
+            </div>
+
+
             <div class="carrogag">
-                <label for="">Carro 01 (GAG3A65 - GOL)</label><br>
+               
                 <input type="checkbox" name="ckbCarro01_0700" id="ckbCarro01_0700">07:00 <span class="horario" name="lblCarro01_0700" id="lblCarro01_0700">PEDRO HENRIQUE DOMINGUES - em uso</span><br>
                 <input type="checkbox" name="ckbCarro01_0730" id="ckbCarro01_0730">07:30 <span class="horario" name="lblCarros01_0730" id="lblCarros01_0730"></span><br>
                 <input type="checkbox" name="ckbCarro01_0800" id="ckbCarro01_0800">08:00 <span class="horario" name="lblCarros01_0800" id="lblCarros01_0800"></span><br>
@@ -53,112 +96,9 @@
                 <input type="checkbox" name="ckbCarro01_2400" id="ckbCarro01_2400">Bloqueio <span class="horario" name="lblCarros01_2400" id="lblCarros01_2400"></span>
             </div>
 
-            <div class="carrorfj">
-                <label for="">Carro 02 (RFJ2A84 - ARGO)</label><br>
-                <input type="checkbox" name="ckbCarro02_0700" id="ckbCarro01_0700">07:00 <span class="horario" name="lblCarros02_0700" id="lblCarros02_0700">PEDRO HENRIQUE DOMINGUES - em uso</span><br>
-                <input type="checkbox" name="ckbCarro02_0730" id="ckbCarro02_0730">07:30 <span class="horario" name="lblCarros02_0730" id="lblCarros02_0730"></span><br>
-                <input type="checkbox" name="ckbCarro02_0800" id="ckbCarro02_0800">08:00 <span class="horario" name="lblCarros02_0800" id="lblCarros02_0800"></span><br>
-                <input type="checkbox" name="ckbCarro02_0830" id="ckbCarro02_0830">08:30 <span class="horario" name="lblCarros02_0830" id="lblCarros02_0830"></span><br>
-                <input type="checkbox" name="ckbCarro02_0900" id="ckbCarro02_0900">09:00 <span class="horario" name="lblCarros02_0900" id="lblCarros02_0900"></span><br>
-                <input type="checkbox" name="ckbCarro02_0930" id="ckbCarro02_0930">09:30 <span class="horario" name="lblCarros02_0930" id="lblCarros02_0930"></span><br>
-                <input type="checkbox" name="ckbCarro02_1000" id="ckbCarro02_1000">10:00 <span class="horario" name="lblCarros02_1000" id="lblCarros02_1000"></span><br>
-                <input type="checkbox" name="ckbCarro02_1030" id="ckbCarro02_1030">10:30 <span class="horario" name="lblCarros02_1030" id="lblCarros02_1030"></span><br>
-                <input type="checkbox" name="ckbCarro02_1100" id="ckbCarro02_1100">11:00 <span class="horario" name="lblCarros02_1100" id="lblCarros02_1100"></span><br>
-                <input type="checkbox" name="ckbCarro02_1130" id="ckbCarro02_1130">11:30 <span class="horario" name="lblCarros02_1130" id="lblCarros02_1130"></span><br>
-                <input type="checkbox" name="ckbCarro02_1200" id="ckbCarro02_1200">12:00 <span class="horario" name="lblCarros02_1200" id="lblCarros02_1200"></span><br>
-                <input type="checkbox" name="ckbCarro02_1230" id="ckbCarro02_1230">12:30 <span class="horario" name="lblCarros02_1230" id="lblCarros02_1230"></span><br>
-                <input type="checkbox" name="ckbCarro02_1300" id="ckbCarro02_1300">13:00 <span class="horario" name="lblCarros02_1300" id="lblCarros02_1300"></span><br>
-                <input type="checkbox" name="ckbCarro02_1330" id="ckbCarro02_1330">13:30 <span class="horario" name="lblCarros02_1330" id="lblCarros02_1330"></span><br>
-                <input type="checkbox" name="ckbCarro02_1400" id="ckbCarro02_1400">14:00 <span class="horario" name="lblCarros02_1400" id="lblCarros02_1400"></span><br>
-                <input type="checkbox" name="ckbCarro02_1430" id="ckbCarro02_1430">14:30 <span class="horario" name="lblCarros02_1430" id="lblCarros02_1430"></span><br>
-                <input type="checkbox" name="ckbCarro02_1500" id="ckbCarro02_1500">15:00 <span class="horario" name="lblCarros02_1500" id="lblCarros02_1500"></span><br>
-                <input type="checkbox" name="ckbCarro02_1530" id="ckbCarro02_1530">15:30 <span class="horario" name="lblCarros02_1530" id="lblCarros02_1530"></span><br>
-                <input type="checkbox" name="ckbCarro02_1600" id="ckbCarro02_1600">16:00 <span class="horario" name="lblCarros02_1600" id="lblCarros02_1600"></span><br>
-                <input type="checkbox" name="ckbCarro02_1630" id="ckbCarro02_1630">16:30 <span class="horario" name="lblCarros02_1630" id="lblCarros02_1630"></span><br>
-                <input type="checkbox" name="ckbCarro02_1700" id="ckbCarro02_1700">17:00 <span class="horario" name="lblCarros02_1700" id="lblCarros02_1700"></span><br>
-                <input type="checkbox" name="ckbCarro02_1730" id="ckbCarro02_1730">17:30 <span class="horario" name="lblCarros02_1730" id="lblCarros02_1730"></span><br>
-                <input type="checkbox" name="ckbCarro02_1800" id="ckbCarro02_1800">18:00 <span class="horario" name="lblCarros02_1800" id="lblCarros02_1800"></span><br>
-                <input type="checkbox" name="ckbCarro02_2400" id="ckbCarro02_2400">Bloqueio <span class="horario" name="lblCarros02_2400" id="lblCarros02_2400"></span>
-            </div>
 
-            <div class="carrofno">
-                <label for="">Carro 03 (FNO4C96 - GOL)</label><br>
-                <input type="checkbox" name="ckbCarro03_0700" id="ckbCarro03_0700">07:00 <span class="horario" name="lblCarro03_0700" id="lblCarro03_0700">PEDRO HENRIQUE DOMINGUES - em uso</span><br>
-                <input type="checkbox" name="ckbCarro03_0730" id="ckbCarro03_0730">07:30 <span class="horario" name="lblCarro03_0730" id="lblCarro03_0730"></span><br>
-                <input type="checkbox" name="ckbCarro03_0800" id="ckbCarro03_0800">08:00 <span class="horario" name="lblCarro03_0800" id="lblCarro03_0800"></span><br>
-                <input type="checkbox" name="ckbCarro03_0830" id="ckbCarro03_0830">08:30 <span class="horario" name="lblCarro03_0830" id="lblCarro03_0830"></span><br>
-                <input type="checkbox" name="ckbCarro03_0900" id="ckbCarro03_0900">09:00 <span class="horario" name="lblCarro03_0900" id="lblCarro03_0900"></span><br>
-                <input type="checkbox" name="ckbCarro03_0930" id="ckbCarro03_0930">09:30 <span class="horario" name="lblCarro03_0930" id="lblCarro03_0930"></span><br>
-                <input type="checkbox" name="ckbCarro03_1000" id="ckbCarro03_1000">10:00 <span class="horario" name="lblCarro03_1000" id="lblCarro03_1000"></span><br>
-                <input type="checkbox" name="ckbCarro03_1030" id="ckbCarro03_1030">10:30 <span class="horario" name="lblCarro03_1030" id="lblCarro03_1030"></span><br>
-                <input type="checkbox" name="ckbCarro03_1100" id="ckbCarro03_1100">11:00 <span class="horario" name="lblCarro03_1100" id="lblCarro03_1100"></span><br>
-                <input type="checkbox" name="ckbCarro03_1130" id="ckbCarro03_1130">11:30 <span class="horario" name="lblCarro03_1130" id="lblCarro03_1130"></span><br>
-                <input type="checkbox" name="ckbCarro03_1200" id="ckbCarro03_1200">12:00 <span class="horario" name="lblCarro03_1200" id="lblCarro03_1200"></span><br>
-                <input type="checkbox" name="ckbCarro03_1230" id="ckbCarro03_1230">12:30 <span class="horario" name="lblCarro03_1230" id="lblCarro03_1230"></span><br>
-                <input type="checkbox" name="ckbCarro03_1300" id="ckbCarro03_1300">13:00 <span class="horario" name="lblCarro03_1300" id="lblCarro03_0700"></span><br>
-                <input type="checkbox" name="ckbCarro03_1330" id="ckbCarro03_1330">13:30 <span class="horario" name="lblCarro03_1330" id="lblCarro03_1330"></span><br>
-                <input type="checkbox" name="ckbCarro03_1400" id="ckbCarro03_1400">14:00 <span class="horario" name="lblCarro03_1400" id="lblCarro03_1400"></span><br>
-                <input type="checkbox" name="ckbCarro03_1430" id="ckbCarro03_1430">14:30 <span class="horario" name="lblCarro03_1430" id="lblCarro03_1430"></span><br>
-                <input type="checkbox" name="ckbCarro03_1500" id="ckbCarro03_1500">15:00 <span class="horario" name="lblCarro03_1500" id="lblCarro03_1500"></span><br>
-                <input type="checkbox" name="ckbCarro03_1530" id="ckbCarro03_1530">15:30 <span class="horario" name="lblCarro03_1530" id="lblCarro03_1530"></span><br>
-                <input type="checkbox" name="ckbCarro03_1600" id="ckbCarro03_1600">16:00 <span class="horario" name="lblCarro03_1600" id="lblCarro03_1600"></span><br>
-                <input type="checkbox" name="ckbCarro03_1630" id="ckbCarro03_1630">16:30 <span class="horario" name="lblCarro03_1630" id="lblCarro03_1630"></span><br>
-                <input type="checkbox" name="ckbCarro03_1700" id="ckbCarro03_1700">17:00 <span class="horario" name="lblCarro03_1700" id="lblCarro03_1700"></span><br>
-                <input type="checkbox" name="ckbCarro03_1730" id="ckbCarro03_1730">17:30 <span class="horario" name="lblCarro03_1730" id="lblCarro03_1730"></span><br>
-                <input type="checkbox" name="ckbCarro03_1800" id="ckbCarro03_1800">18:00 <span class="horario" name="lblCarro03_1800" id="lblCarro03_1800"></span><br>
-                <input type="checkbox" name="ckbCarro03_2400" id="ckbCarro03_2400">Bloqueio <span class="horario" name="lblCarro03_2400" id="lblCarro03_2400"></span>
-            </div>
 
-            <div class="carroghy">
-                <label for="">Carro 04 (GHY2D63 - GOL)</label><br>
-                <input type="checkbox" name="ckbCarro04_0700" id="ckbCarro04_0700">07:00 <span class="horario" name="lblCarro04_0700" id="lblCarro04_0700">PEDRO HENRIQUE DOMINGUES - em uso</span><br>
-                <input type="checkbox" name="ckbCarro04_0730" id="ckbCarro04_0730">07:30 <span class="horario" name="lblCarro04_0730" id="lblCarro04_0730"></span><br>
-                <input type="checkbox" name="ckbCarro04_0800" id="ckbCarro04_0800">08:00 <span class="horario" name="lblCarro04_0700" id="lblCarro04_0700"></span><br>
-                <input type="checkbox" name="ckbCarro04_0830" id="ckbCarro04_0830">08:30 <span class="horario" name="lblCarro04_0830" id="lblCarro04_0830"></span><br>
-                <input type="checkbox" name="ckbCarro04_0900" id="ckbCarro04_0900">09:00 <span class="horario" name="lblCarro04_0900" id="lblCarro04_0900"></span><br>
-                <input type="checkbox" name="ckbCarro04_0930" id="ckbCarro04_0930">09:30 <span class="horario" name="lblCarro04_0930" id="lblCarro04_0930"></span><br>
-                <input type="checkbox" name="ckbCarro04_1000" id="ckbCarro04_1000">10:00 <span class="horario" name="lblCarro04_1000" id="lblCarro04_1000"></span><br>
-                <input type="checkbox" name="ckbCarro04_1030" id="ckbCarro04_1030">10:30 <span class="horario" name="lblCarro04_1030" id="lblCarro04_1030"></span><br>
-                <input type="checkbox" name="ckbCarro04_1100" id="ckbCarro04_1100">11:00 <span class="horario" name="lblCarro04_1100" id="lblCarro04_1100"></span><br>
-                <input type="checkbox" name="ckbCarro04_1130" id="ckbCarro04_1130">11:30 <span class="horario" name="lblCarro04_1130" id="lblCarro04_1130"></span><br>
-                <input type="checkbox" name="ckbCarro04_1200" id="ckbCarro04_1200">12:00 <span class="horario" name="lblCarro04_1200" id="lblCarro04_1200"></span><br>
-                <input type="checkbox" name="ckbCarro04_1230" id="ckbCarro04_1230">12:30 <span class="horario" name="lblCarro04_1230" id="lblCarro04_1230"></span><br>
-                <input type="checkbox" name="ckbCarro04_1300" id="ckbCarro04_1300">13:00 <span class="horario" name="lblCarro04_1300" id="lblCarro04_1300"></span><br>
-                <input type="checkbox" name="ckbCarro04_1330" id="ckbCarro04_1330">13:30 <span class="horario" name="lblCarro04_1330" id="lblCarro04_1330"></span><br>
-                <input type="checkbox" name="ckbCarro04_1400" id="ckbCarro04_1400">14:00 <span class="horario" name="lblCarro04_1400" id="lblCarro04_1400"></span><br>
-                <input type="checkbox" name="ckbCarro04_1430" id="ckbCarro04_1430">14:30 <span class="horario" name="lblCarro04_1430" id="lblCarro04_1430"></span><br>
-                <input type="checkbox" name="ckbCarro04_1500" id="ckbCarro04_1500">15:00 <span class="horario" name="lblCarro04_1500" id="lblCarro04_1500"></span><br>
-                <input type="checkbox" name="ckbCarro04_1530" id="ckbCarro04_1530">15:30 <span class="horario" name="lblCarro04_1530" id="lblCarro04_1530"></span><br>
-                <input type="checkbox" name="ckbCarro04_1600" id="ckbCarro04_1600">16:00 <span class="horario" name="lblCarro04_1600" id="lblCarro04_1600"></span><br>
-                <input type="checkbox" name="ckbCarro04_1630" id="ckbCarro04_1630">16:30 <span class="horario" name="lblCarro04_1630" id="lblCarro04_1630"></span><br>
-                <input type="checkbox" name="ckbCarro04_1700" id="ckbCarro04_1700">17:00 <span class="horario" name="lblCarro04_1700" id="lblCarro04_1700"></span><br>
-                <input type="checkbox" name="ckbCarro04_1730" id="ckbCarro04_1730">17:30 <span class="horario" name="lblCarro04_1730" id="lblCarro04_1730"></span><br>
-                <input type="checkbox" name="ckbCarro04_1800" id="ckbCarro04_1800">18:00 <span class="horario" name="lblCarro04_1800" id="lblCarro04_1800"></span><br>
-                <input type="checkbox" name="ckbCarro04_2400" id="ckbCarro04_2400">Bloqueio <span class="horario" name="lblCarro04_2400" id="lblCarro04_2400"></span><br>
-            </div>
 
-            <div class="tanque" style="width: 250px;">
-                <p>Última atualização</p> <span class="ua" name="lblUltimaUtilizacao" id="lblUltimaUtilizacao"></span>
-                <label data-atributo="correcaoadm" for="motorista">Motorista</label> <span class="ua" name="lblNomeMotorista" id="lblNomeMotorista">Pedro Henrique Domingues</span> <br>
-                <label data-atributo="correcaoadm" for="">Quilometragem</label> <span class="ua" name="lblValorKM" id="lblValorKM">000000</span> <br>
-                <label data-atributo="correcaoadm" for="">Combustível</label> <span class="ua">Gasolina</span> <br>
-                <img src="imagens/tanque0_4.bmp" name="imgQtdeCombustivel" id="imgQtdeCombustivel" alt="imagem combustivel">
-            </div>
-
-            <div class="km">
-                <label data-atributo="correcaoadm" for="KMI">KM Inicial</label><br>
-                <input type="text" name="KMI" id="KMI"><br>
-                <label data-atributo="correcaoadm" for="KMF">KM Final</label><br>
-                <input type="text" name="KMF" id="KMF"><br>
-                <label data-atributo="correcaoadm" for="Combustivel:">Combustivel :</label>
-                <select name="Combustivel" id="Combustivel" style="
-    width: 102px;
-">
-                    <option selected="" disabled="" value="Selecione">Selecione uma Opção</option>
-                    <option value="teste1">Alcool</option>
-                    <option value="teste2"> Gasolina</option>
-                </select>
-            </div>
 
             <div class="observacoes">
                 <label for="destino">Destino</label><br>
@@ -172,9 +112,9 @@
 
             </div>
 
-            <div class="abastecido">
+            <div style="margin-top: 20px;" class="abastecido">
                 <input type="checkbox" name="abastecido" id="abastecido">
-                <label data-atributo="correcaoadm" for="abastecido">Abastecido?</label>
+                <label style="font-weight: bolder;" data-atributo="correcaoadm" for="abastecido">Abastecido?</label><br>
                 <input type="text" name="abastecidoKM" id="abastecidoKM">
                 
                 <label data-atributo="correcaoadm" for="abastecidoKM">KM</label><br>
@@ -182,7 +122,7 @@
     <input type="text" name="abastecimentoLitros" id="abastecimentoLitros">
                 <label data-atributo="correcaoadm" for="abastecimentoLitros">Litros</label>
         </div> <input type="checkbox" name="lavagem" id="lavagem">
-                <label data-atributo="correcaoadm" for="lavagem">Necessario lavagem?</label>
+                <label style="font-weight: bolder;" data-atributo="correcaoadm" for="lavagem">Necessario lavagem?</label>
             </div>
 
             <div class="botoes">

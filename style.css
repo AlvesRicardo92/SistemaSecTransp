@@ -173,8 +173,9 @@ label[data-atributo="correcaoadm"]{
 
 .paginacarro {
     line-height: 2;
-    margin-left: 10%;
-    margin-right: 20%;
+    margin-left: 200px;
+    width: 887px;
+   
 }
 
 .paginaadm {
@@ -213,8 +214,8 @@ label[data-atributo="correcaoadm"]{
 }
 .carrogag {
     position: absolute;
-    top: 150px;
-    left: 60px;
+    top: 160px;
+    left: 600px;
     width:276px;    
 }
 
@@ -243,10 +244,10 @@ label[data-atributo="correcaoadm"]{
     font-size: 16px;
 }
 .tanque {
-    position: absolute;
+   /* position: absolute;
     top: 995px;
     left: 100px;
-    font-size: 14px;
+    font-size: 14px;*/
 }
 
 .tanque img {
@@ -256,19 +257,21 @@ label[data-atributo="correcaoadm"]{
     
 }
 
-.km {
+/*.km {
     position: absolute;
     left: 365px;
     top: 1015px;
 
     
-}
+}*/
+
 .observacoes{
     position:absolute;
-    left:1000px;
-    top:1015px;
+    left:600px;
+    top:950px;
    
 }
+
 label#obs{
     position:absolute;
     top:0px;
@@ -276,14 +279,14 @@ label#obs{
 }
 .abastecido{
     position:absolute;
-    left:600px;
-    top:1035px;
-    
+    left:200px;
+    top: 940px;
 }
-.abastecimentoLitros{
+
+/*.abastecimentoLitros{
     position:relative;
     left:126px
-}
+}*/
 .anexo{
     position:relative;
     left:50px;
@@ -291,7 +294,8 @@ label#obs{
 .botoes{
     position:relative;
     left:200px;
-    top:1070px;
+    top: 220px;
+    width: 660px;
 }
 .botoes button{
     width: 130px;
