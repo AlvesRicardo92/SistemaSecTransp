@@ -120,6 +120,12 @@ label[data-atributo="correcaoadm"]{
     
 }
 
+label[data-atributo="correcaoos"]{
+    display: inline-block;
+    margin-left: 0px;
+    text-align: left;
+}
+
 
 .paginasi {
     width: 50%;
@@ -193,10 +199,11 @@ label[data-atributo="correcaoadm"]{
 }*/
 
 .escolha2 {
-    position: absolute;
-    left: 950px;
-    top: 290px;
-    right: 480px; 
+    width: 95px;
+    height: 90px;
+    
+    float:right;
+    margin: auto;
 }
 
 .escolha3 {
