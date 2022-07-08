@@ -555,7 +555,9 @@ a:hover {
 }
 
 .osobs {
-    position: absolute;
-    top: 770px;
-    left: 850px; 
+    width: 320px;
+    height: 90px;
+    
+    float:right;
+    margin-top: -26px;
 }
