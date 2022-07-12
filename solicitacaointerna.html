@@ -73,7 +73,7 @@
 
         <div>
                 <label for="Endereço">Endereço:</label>
-                <input style="width: 300px;" type="text" name="Endereço" id="Endereço">
+                <button type="button" data-toggle="modal" data-target="#exampleModal"><input style="width: 300px;" type="text" name="Endereço" id="Endereço"></button>
                 <label  for="Nº" data-atributo="correcao">Nº:</label>
                 <input style="width: 40px;" type="text" name="Nº" id="Nº">
         </div>
@@ -99,13 +99,13 @@
         <div style="text-align: center;">
             <button type="menu">Novo</button>
             <button type="submit">Salvar</button>
-            <button type="button"  data-toggle="modal" data-target="#exampleModal">Pesquisar</button>
+            <button type="button"  data-toggle="modal" data-target="#pesquisa">Pesquisar</button>
             <button type="submit">Status</button>
             <a href="PaginaHome.php"><input type="button" value="Voltar"></a>
                          
         </div> 
 
-        <div  class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div  class="modal fade" id="pesquisa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div style="background-color: #BDBDBD;" class="modal-content">
                 <div class="modal-header">
