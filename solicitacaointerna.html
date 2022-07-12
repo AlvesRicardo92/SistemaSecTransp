@@ -73,7 +73,7 @@
 
         <div>
                 <label for="Endereço">Endereço:</label>
-                <button type="button" data-toggle="modal" data-target="#exampleModal"><input style="width: 300px;" type="text" name="Endereço" id="Endereço"></button>
+                <button style="background-color: #BDBDBD; border: 0px; margin-left: -6px;" type="button" data-toggle="modal" data-target="#endereco"><input style="width: 300px;" type="text" name="Endereço" id="Endereço"></button>
                 <label  for="Nº" data-atributo="correcao">Nº:</label>
                 <input style="width: 40px;" type="text" name="Nº" id="Nº">
         </div>
@@ -137,6 +137,49 @@
                 <div class="modal-footer">
                   <button type="button" data-dismiss="modal">Fechar</button>
                   <button type="button" >Pesquisar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div  class="modal fade" id="endereco" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div style="background-color: #BDBDBD;" class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Busca Endereço</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                
+                
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                <div>
+                    
+                    <label style="width: 40px;" for="">Tipo:</label><br>
+                <select class="form-control" style="width: 100px;" name="" id="">
+                    <option selected disabled value="Selecione">Selecione uma Opção</option>
+                    <option value="test1">test1</option>
+                    <option value="test2">test2</option>
+                  
+                </select>
+                
+                <label style="width: 75px;" for="recipient-name" class="col-form-label">Endereço:</label>
+                <input type="text" class="form-control" id="recipient-name">      
+                </div>
+                     
+                    </div>
+                    <div class="form-group">
+                      <label for="message-text" class="col-form-label"></label>
+                      <textarea class="form-control" id="message-text" rows="6" style="width: 465px;"></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" data-dismiss="modal">Fechar</button>
+                  <button type="button" >Buscar</button>
                 </div>
               </div>
             </div>
