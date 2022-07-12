@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     
@@ -14,7 +14,15 @@
 
 
 <body>
-
+  <script>
+    function abrirModalEndereco() {
+      if ($('#endereco').val().length< 1)
+      {
+        $('#modalEndereco').modal('show'); 
+      }
+      
+    }
+  </script>
 <main>
 
 <h1> Cadastro de Solicitação Interna - ST</h1>
@@ -73,8 +81,8 @@
 
         <div>
                 <label for="Endereço">Endereço:</label>
-                <button style="background-color: #BDBDBD; border: 0px; margin-left: -6px;" type="button" data-toggle="modal" data-target="#endereco"><input style="width: 300px;" type="text" name="Endereço" id="Endereço"></button>
-                <label  for="Nº" data-atributo="correcao">Nº:</label>
+                <input style="width: 300px;" type="text" name="endereco" id="endereco" onfocus="abrirModalEndereco()">
+                <label for="Nº" data-atributo="correcao">Nº:</label>
                 <input style="width: 40px;" type="text" name="Nº" id="Nº">
         </div>
 
@@ -142,7 +150,7 @@
             </div>
           </div>
 
-          <div  class="modal fade" id="endereco" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div  class="modal fade" id="modalEndereco" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div style="background-color: #BDBDBD;" class="modal-content">
                 <div class="modal-header">
@@ -192,6 +200,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
