@@ -80,16 +80,21 @@
              </div>
 
              <div>
-                <label for="Endereço">Endereço:</label>
-                <button style="background-color: #BDBDBD; border: 0px; margin-left: -6px;" type="button" data-toggle="modal" data-target="#endereco"><input style="width: 300px;" type="text" name="Endereço" id="Endereço"></button>
-                 <label style="margin-left: -80px;" for="Nº">Nº:</label>
-                 <input style="width: 50px;" type="text" name="Nº" id="Nº">
-             </div>
+              <label for="endereco">Endereço:</label>
+              <button type="button"  data-toggle="modal" data-target="#endereco">Busca Endereço</button>
+            </div>
 
-             <div>
-                 <label for="bairro">Bairro:</label>
-                 <input style="width: 380px;" type="text" name="bairro" id="bairro">
-             </div>
+            <div>
+              <label for="logradouro">Logradouro:</label>
+              <input readonly="true"  style="width: 300px; background-color: #d4d2d2;" type="text" name="" id="" >
+              <label for="Nº" data-atributo="correcao">Nº:</label>
+              <input readonly="true" style="width: 40px; background-color: #d4d2d2;" type="text" name="Nº" id="Nº">
+            </div>
+
+            <div>
+              <label for="Bairro">Bairro:</label>
+              <input readonly="true" style="width: 399px; background-color: #d4d2d2;" type="text" name="Bairro" id="Bairro">
+            </div>
 
              <div>
                  <label for="projeto">Projeto:</label>
@@ -140,85 +145,7 @@
              </div>
             </div>
 
-            <div  class="modal fade" id="pesquisa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div style="background-color: #BDBDBD;" class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Pesquisa</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <form>
-                        <div class="form-group">
-                            <div style="text-align: center;">
-                                <label style="width: 61px;" for=""><input type="radio" name="" id="">Número</label>
-                                <label style="width: 77px;" for=""><input type="radio" name="" id="">Endereço</label>
-                                <label style="width: 101px;" for=""><input type="radio" name="" id="">Interessado</label>
-                                <br>
-                            </div>
-                          <div>
-                              <label style="width: 160px;" for="recipient-name" class="col-form-label">Valor para pesquisar</label>
-                              <input type="text" class="form-control" id="recipient-name">
-                          </div>
-                        </div>
-                        <div class="form-group">
-                          <label for="message-text" class="col-form-label"></label>
-                          <textarea class="form-control" id="message-text" rows="6" style="width: 465px;"></textarea>
-                        </div>
-                      </form>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" data-dismiss="modal">Fechar</button>
-                      <button type="button" >Pesquisar</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-    
-              <div  class="modal fade" id="endereco" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div style="background-color: #BDBDBD;" class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Busca Endereço</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    
-                    
-                    <div class="modal-body">
-                      <form>
-                        <div class="form-group">
-                    <div>
-                        
-                        <label style="width: 40px;" for="">Tipo:</label><br>
-                    <select class="form-control" style="width: 100px;" name="" id="">
-                        <option selected disabled value="Selecione">Selecione uma Opção</option>
-                        <option value="test1">test1</option>
-                        <option value="test2">test2</option>
-                      
-                    </select>
-                    
-                    <label style="width: 75px;" for="recipient-name" class="col-form-label">Endereço:</label>
-                    <input type="text" class="form-control" id="recipient-name">      
-                    </div>
-                         
-                        </div>
-                        <div class="form-group">
-                          <label for="message-text" class="col-form-label"></label>
-                          <textarea class="form-control" id="message-text" rows="6" style="width: 465px;"></textarea>
-                        </div>
-                      </form>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" data-dismiss="modal">Fechar</button>
-                      <button type="button" >Buscar</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
 
             
             <div class="tab-content">
@@ -307,6 +234,86 @@
             
 
         </div>
+
+                    <div  class="modal fade" id="pesquisa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div style="background-color: #BDBDBD;" class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Pesquisa</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                            <div style="text-align: center;">
+                                <label style="width: 61px;" for=""><input type="radio" name="" id="">Número</label>
+                                <label style="width: 77px;" for=""><input type="radio" name="" id="">Endereço</label>
+                                <label style="width: 101px;" for=""><input type="radio" name="" id="">Interessado</label>
+                                <br>
+                            </div>
+                          <div>
+                              <label style="width: 160px;" for="recipient-name" class="col-form-label">Valor para pesquisar</label>
+                              <input type="text" class="form-control" id="recipient-name">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="message-text" class="col-form-label"></label>
+                          <textarea class="form-control" id="message-text" rows="6" style="width: 465px;"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" data-dismiss="modal">Fechar</button>
+                      <button type="button" >Pesquisar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div  class="modal fade" id="endereco" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div style="background-color: #BDBDBD;" class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Busca Endereço</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    
+                    
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                    <div>
+                        
+                        <label style="width: 40px;" for="">Tipo:</label><br>
+                    <select class="form-control" style="width: 100px;" name="" id="">
+                        <option selected disabled value="Selecione">Selecione uma Opção</option>
+                        <option value="test1">test1</option>
+                        <option value="test2">test2</option>
+                      
+                    </select>
+                    
+                    <label style="width: 75px;" for="recipient-name" class="col-form-label">Endereço:</label>
+                    <input type="text" class="form-control" id="recipient-name">      
+                    </div>
+                         
+                        </div>
+                        <div class="form-group">
+                          <label for="message-text" class="col-form-label"></label>
+                          <textarea class="form-control" id="message-text" rows="6" style="width: 465px;"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" data-dismiss="modal">Fechar</button>
+                      <button type="button" >Buscar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
         
 </main>

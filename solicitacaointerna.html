@@ -14,15 +14,6 @@
 
 
 <body>
-  <script>
-    function abrirModalEndereco() {
-      if ($('#endereco').val().length< 1)
-      {
-        $('#modalEndereco').modal('show'); 
-      }
-      
-    }
-  </script>
 <main>
 
 <h1> Cadastro de Solicitação Interna - ST</h1>
@@ -80,15 +71,20 @@
         </div>
 
         <div>
-                <label for="Endereço">Endereço:</label>
-                <input style="width: 300px;" type="text" name="endereco" id="endereco" onfocus="abrirModalEndereco()">
+          <label for="endereco">Endereço:</label>
+          <button type="button"  data-toggle="modal" data-target="#endereco">Busca Endereço</button>
+        </div>
+
+        <div>
+                <label for="logradouro">Logradouro:</label>
+                <input readonly="true"  style="width: 300px; background-color: #d4d2d2;" type="text" name="" id="" >
                 <label for="Nº" data-atributo="correcao">Nº:</label>
-                <input style="width: 40px;" type="text" name="Nº" id="Nº">
+                <input readonly="true" style="width: 40px; background-color: #d4d2d2;" type="text" name="Nº" id="Nº">
         </div>
 
         <div>
                 <label for="Bairro">Bairro:</label>
-                <input style="width: 399px;" type="text" name="Bairro" id="Bairro">
+                <input readonly="true" style="width: 399px; background-color: #d4d2d2;" type="text" name="Bairro" id="Bairro">
         </div>
 
         <div>
@@ -150,7 +146,7 @@
             </div>
           </div>
 
-          <div  class="modal fade" id="modalEndereco" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div  class="modal fade" id="endereco" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div style="background-color: #BDBDBD;" class="modal-content">
                 <div class="modal-header">
