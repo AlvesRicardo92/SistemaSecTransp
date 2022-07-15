@@ -177,6 +177,13 @@ label[data-atributo="correcaoos"]{
     line-height: 2;
 }
 
+.paginacancelamento {
+    margin-left: 300px;
+    margin-right: 100px;
+    padding: 10px;
+    line-height: 2;
+}
+
 .paginacarro {
     line-height: 2;
     margin-left: 180px;
@@ -560,4 +567,12 @@ a:hover {
     margin-right: 100px;
     float:right;
     margin-top: -26px;
+}
+
+.candocumento {
+    width: 190px;
+    height: 70px;
+    
+    float:left;
+    margin: auto;
 }
