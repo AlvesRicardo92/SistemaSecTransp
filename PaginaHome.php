@@ -86,15 +86,7 @@
             <a href="carros.html" class="menu"><img src="imagens/Imagens sem fundo/carros.png" alt=""><br> Carros</a>
             <a href="cancelamento.html" class="menu"><img src="imagens/Imagens sem fundo/cancelamento2.png" alt=""><br> Cancelamento</a>
             <a href="index.php" class="menu"><img src="imagens/Imagens sem fundo/sair.png" alt=""><br>Sair</a>
-            <a href="#openModal"class="menu"><img src="imagens/hide.bmp" alt=""><br>Abrir modal</a>
-            <div id="openModal" class="modalDialog">
-                <div>
-                    <a href="#close" title="Close" class="close">X</a>
-                    <h2>Modal Box</h2>
-                    <p>This is a sample modal box that can be created using the powers of CSS3.</p>
-                    <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
-                </div>
-            </div>
+           
         </nav>    
     </main>
     <?php
